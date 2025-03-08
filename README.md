@@ -1,28 +1,38 @@
-# Frontend Mentor Challenge: Intro Section with Dropdown Navigation
+# Frontend Mentor - Intro section with dropdown navigation solution
 
-## Student Name: Mallika Kapoor
-## Student Number: 041130241
-## Challenge: Intro Section with Dropdown Navigation
+This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### Project Description:
-This project is based on the "Intro Section with Dropdown Navigation" challenge from Frontend Mentor. The objective is to build a responsive webpage using HTML, CSS, and JavaScript that mimics the provided design. The design features an intro section with a large heading, a description, and a button, as well as a navigation bar with dropdown functionality.
+## Table of contents
 
-### Features:
-- **Navigation Bar**: A fixed navigation bar with links to Home, Features, Pricing, and Contact, where the "Features" link has a dropdown menu.
-- **Responsive Design**: The webpage is fully responsive and adjusts for different screen sizes using modern CSS techniques like Flexbox and Media Queries.
-- **Dropdown Menu**: JavaScript is used to handle the dropdown functionality for the "Features" menu.
-- **Smooth Scrolling**: Implemented smooth scrolling for a better user experience when navigating through the page.
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
-### Technologies Used:
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **Google Fonts (Poppins)**
+### The challenge
 
-### GitHub Repository:
-- Repository URL: (https://github.com/MallikaKapoor041130241/mtm6404-frontend-mentor-MallikaKapoor041130241.git)
+Users should be able to:
 
-### Setup Instructions:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MallikaKapoor041130241/mtm6404-frontend-mentor-MallikaKapoor041130241.git
+- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
+- View the optimal layout for the content depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+### Links
+
+- Live Site URL: [Live Site](https://mallikakapoor041130241.github.io/mtm6404-frontend-mentor-MallikaKapoor41130241/)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+
+## Author
+
+- Frontend Mentor - [@MallikaKapoor]
