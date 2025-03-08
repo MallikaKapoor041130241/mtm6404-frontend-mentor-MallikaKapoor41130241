@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* body bg */
+  body {
+    background-color: #f0f4f8;
+  }
+  
+  /* navbar */
+  header {
+    background-color: #fff;
+    padding: 20px 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* navbar content */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  /* logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5e60ce;
+  }
+  
+  /* navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #5e60ce;
+  }
+  
+  /* dropdown menu */
+  .dropdown {
+    position: relative;
+  }
+  
+  /* dropdown menu style */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    min-width: 200px;
+    padding: 10px 0;
+  }
+  
+  /* dropdown item */
+  .dropdown-menu li {
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .dropdown-menu li span {
+    font-size: 20px;
+  }
+  
+  /* dropdown menu link */
+  .dropdown-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* hover effect */
+  .dropdown-menu li:hover {
+    background-color: #f8f8f8;
+  }
+  
+  /* dropdown effect*/
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* intro */
+  .intro {
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  .intro h1 {
+    font-size: 4rem;
+    color: #5e60ce;
+    animation: fadeInDown 1.5s ease;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    color: #777;
+    margin: 20px 0;
+  }
+  
+  /* button */
+  .btn {
+    padding: 12px 40px;
+    background-color: #5e60ce;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #7a7bff;
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(94, 96, 206, 0.2);
+  }
+  
+  /* animation */
+  html {
+    scroll-behavior: smooth;
+  }
+  @keyframes fadeInDown {
+    0% { transform: translateY(-50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes fadeInUp {
+    0% { transform: translateY(50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  /* Smooth Scroll Effect */
+  html {
+    scroll-behavior: smooth;
+  }
